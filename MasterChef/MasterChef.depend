@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1524693254 source:c:\users\anton\desktop\masterchef\main.cpp
+	<iostream>
+	<string>
+	"Player.h"
+	"Team.h"
+
+1524665654 c:\users\anton\desktop\masterchef\player.h
+	<stdlib.h>
+	<iostream>
+	<string>
+	<math.h>
+
+1524661292 c:\users\anton\desktop\masterchef\team.h
+	"Player.h"
+	<stdlib.h>
+	<iostream>
+	<string>
+	<math.h>
+
+1524667294 source:c:\users\anton\desktop\masterchef\player.cpp
+	"Player.h"
+
+1524679567 source:c:\users\anton\desktop\masterchef\team.cpp
+	"Team.h"
+
