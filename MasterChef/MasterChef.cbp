@@ -32,10 +32,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Award.h" />
+		<Unit filename="Competition.cpp" />
+		<Unit filename="Competition.h" />
+		<Unit filename="CreativityCompetition.cpp" />
+		<Unit filename="CreativityCompetition.h" />
+		<Unit filename="ExcursionAward.h" />
+		<Unit filename="FoodAward.h" />
+		<Unit filename="ImmunityAward.h" />
+		<Unit filename="ImmunityCompetition.cpp" />
+		<Unit filename="ImmunityCompetition.h" />
 		<Unit filename="Player.cpp" />
 		<Unit filename="Player.h" />
+		<Unit filename="Round.h" />
 		<Unit filename="Team.cpp" />
 		<Unit filename="Team.h" />
+		<Unit filename="TeamCompetition.cpp" />
+		<Unit filename="TeamCompetition.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

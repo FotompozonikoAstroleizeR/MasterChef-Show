@@ -1,56 +1,60 @@
 #ifndef PLAYER_H_INCLUDED
 #define PLAYER_H_INCLUDED
 
-
-#include <stdlib.h>
 #include <iostream>
 #include <string>
-#include <math.h>
+#include <cstdio>
+#include <cstdlib>
 
 using namespace std;
 
+enum genderOption {male, female};
+
 class Player{
 
-   string name;
-   string sex;
-   string job;
-   int age;
-   int exhaustion;
-   int wins;
-   int popularity;
-   int technicalExperience;
+    string name;
+    genderOption gender;
+    int age;
+    string job;
+	int wins;
+    float technique;
+    float fatigue;
+    float popularity;
+    bool candidate;
 
 public:
-   Player();
-   Player(string name,string sex,string job,int age,int techicalExperience,int exhaustion,int popularity,int wins);
-   ~Player();
+    Player();
+    Player(string n, genderOption g, int a);
+    ~Player();
 
-   void setName(string n);
-   void setSex(string s);
-   void setJob(string j);
-   void setAge(int a);
-   void setTechicalExperience(int te);
-   void setExhaustion(int ex);
-   void setPopularity(int p);
-   void setWins(int w);
+    string getName();
+    genderOption getGender();
+    int getAge();
+    string getJob();
+	int getWins();
+    float getTechnique();
+    float getFatigue();
+    float getPopularity();
+    bool getCandidate();
 
-   string getName();
-   string getSex();
-   string getJob();
-   int    getAge();
-   int    getTechnicalExperience();
-   int    getExhaustion();
-   int    getPopularity();
-   int    getWins();
+    void setName(string val);
+    void setGender(genderOption val);
+    void setJob(string val);
+    void setAge(int val);
+	void setWins(int val);
+    void setTechnique(float val);
+    void setFatigue(float val);
+    void setPopularity(float val);
+    void setCandidate(bool val);
 
+    void work();
+    void sleep();
+    void socialize();
+    void practice();
+    void compete();
 
-   void personalRelationships();
-   void works(bool x);
-   void eats();
-   void sleeps();
-   void votes();
-   void competes();
-   void endingOfWeek();
-
+    void status();
 };
+
+
 #endif // PLAYER_H_INCLUDED

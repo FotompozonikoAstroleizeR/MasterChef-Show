@@ -1,26 +1,75 @@
 # depslib dependency file v1.0
-1524693254 source:c:\users\anton\desktop\masterchef\main.cpp
+1523081083 source:c:\users\angry laptop too\desktop\masterchef\main.cpp
+	"Team.h"
+
+1523029915 c:\users\angry laptop too\desktop\masterchef\player.h
+	<iostream>
+	<string>
+	<cstdio>
+	<cstdlib>
+
+1523029643 c:\users\angry laptop too\desktop\masterchef\team.h
 	<iostream>
 	<string>
 	"Player.h"
-	"Team.h"
 
-1524665654 c:\users\anton\desktop\masterchef\player.h
+1523030048 source:c:\users\angry laptop too\desktop\masterchef\team.cpp
+	"Team.h"
+	"Player.h"
+
+1523029901 source:c:\users\angry laptop too\desktop\masterchef\player.cpp
+	"Player.h"
+
+1523081242 source:c:\users\angry laptop too\desktop\masterchef\creativitycompetition.cpp
+
+1492455462 source:c:\users\angry laptop too\desktop\masterchef\immunitycompetition.cpp
+
+1492455468 source:c:\users\angry laptop too\desktop\masterchef\teamcompetition.cpp
+
+1523081242 source:c:\users\anton\desktop\masterchef\creativitycompetition.cpp
+
+1492455462 source:c:\users\anton\desktop\masterchef\immunitycompetition.cpp
+
+1523030048 source:c:\users\anton\desktop\masterchef\team.cpp
+	"Team.h"
+	"Player.h"
+
+1523029643 c:\users\anton\desktop\masterchef\team.h
+	<iostream>
+	<string>
+	"Player.h"
+
+1523029915 c:\users\anton\desktop\masterchef\player.h
+	<iostream>
+	<string>
+	<cstdio>
+	<cstdlib>
+
+1525105670 source:c:\users\anton\desktop\masterchef\teamcompetition.cpp
 	<stdlib.h>
 	<iostream>
 	<string>
-	<math.h>
+	"TeamCompetition.h"
 
-1524661292 c:\users\anton\desktop\masterchef\team.h
+1523081311 source:c:\users\anton\desktop\masterchef\main.cpp
+	"Team.h"
+
+1523086633 source:c:\users\anton\desktop\masterchef\player.cpp
 	"Player.h"
+
+1525271913 c:\users\anton\desktop\masterchef\teamcompetition.h
 	<stdlib.h>
 	<iostream>
 	<string>
-	<math.h>
 
-1524667294 source:c:\users\anton\desktop\masterchef\player.cpp
-	"Player.h"
+1525105763 source:c:\users\anton\desktop\masterchef\competition.cpp
+	<stdlib.h>
+	<iostream>
+	<string>
+	"Competition.h"
 
-1524679567 source:c:\users\anton\desktop\masterchef\team.cpp
-	"Team.h"
+1525098362 c:\users\anton\desktop\masterchef\competition.h
+	<stdlib.h>
+	<iostream>
+	<string>
 

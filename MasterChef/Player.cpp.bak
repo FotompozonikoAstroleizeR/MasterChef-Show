@@ -184,14 +184,14 @@ void Player::practice()
 
 void Player::sleep()
 {
-    fatigue *= 0.5;
+    fatigue = 0;
 }
 
 void Player::compete()
 {
 
     float value = 10 + (((float) rand()) / (float) RAND_MAX)*10;
-    fatigue += value;
+    fatigue *= (1 + (value/100));
 
     if (fatigue > 100)
         fatigue = 100;
